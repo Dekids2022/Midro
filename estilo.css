@@ -1,0 +1,170 @@
+*{
+  margin: 0px;
+}
+
+body{ 
+    background:rgba(218, 221, 218, 0.877) ;
+    color: rgba(235, 235, 225, 0.712);
+   text-align: center;
+    margin: 0px;
+    font-family: Nunito sans;
+  }
+
+ul{
+list-style: none ;
+margin: 0px;
+padding: 0px;
+display: flex;
+height: inherit;
+
+font-size: 30px;
+ }
+
+ strong{ 
+  color: #99cc00;
+  }
+
+
+  .header{
+background:rgb(255, 255, 255) ;
+color: rgb(211, 211, 211);
+display: flex;
+justify-content: space-between;
+height: 90px;
+ }
+
+.header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.header li{
+  height: inherit;
+}
+
+
+.menu{
+  height: inherit;
+}
+
+ .logo img{
+  width: 100px; 
+   }
+
+
+
+  .principal{  
+   background: rgb(121, 148, 179);
+  background-image: url('https://static1.burgosconecta.es/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: black;
+     }
+     
+     .principal img{ 
+      width: 300px;
+      }
+
+      .principal-boton{
+        width: 200px;
+        height: 40px;
+        background-color:rgb(23, 211, 102);
+        color: beige;
+        border-radius: 24px;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-bottom: 40px;
+      }
+
+      .registro-boton{
+        width: 200px;
+        height: 40px;
+        background-color:rgb(24, 213, 242);
+        color: beige;
+        border-radius: 24px;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-bottom: 40px;
+      }
+
+      .principal2 h2{
+        color: #99cc00;
+        margin-bottom: 10px;
+       }
+
+       .principal2 p{
+        margin-bottom: 20px;
+        }
+
+       
+
+
+     .principal2{  
+      background:rgba(246, 255, 248, 0.959) ;
+      text-align: center;
+      padding:50px;
+      font-size: 20px;
+        }
+
+        .principal3{  
+          background: rgba(1, 68, 255, 0.733);
+          padding: 50px;
+          text-align: center;
+            }
+
+            .Sexta{
+              background:white;
+              color:blue;
+              padding: 70px ;
+              height: 160px;
+              text-align: center;
+          }
+          .novedades{
+            display: flex;
+            overflow: auto;
+            padding: 25px;
+        
+        }
+        .card2{
+            margin-right: 350px;
+            position: relative;
+        }
+        .cuerpo-card2{
+            position: absolute;
+            bottom: 0;
+            padding: 50px;
+        }
+        .card2 img{
+            width: 100px;
+            object-fit: cover;
+            height: 150px;
+        }
+
+        .slider-container {
+          display: flex;
+          width: 100%;
+          height: 100vh;
+          overflow-x: scroll;
+          scroll-snap-type: x mandatory;
+          
+        }
+        .slider-container img {
+          flex: 0 0 100%;
+          width: 100%;
+          object-fit: cover;
+          scroll-snap-align: center;
+        }
+
+
+  
+  
+ 
